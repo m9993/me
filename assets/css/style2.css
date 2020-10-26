@@ -1,4 +1,19 @@
 /*//custom//*/
+#navbar-brand{
+	color: #ffffffa1;
+	font-size: 2rem;
+}
+#header-section h1{
+		font-size: 5rem;
+		text-shadow: 5px 5px 9px #080808;
+}
+#header-section h2{
+	margin-top: 0px;
+	font-size: 1.5rem;
+	color: #b7b7b7;
+	text-shadow: 2px 2px 10px #080808;
+
+}
 #about-section{
 	background-color: #1B2631;
 	color: white;
