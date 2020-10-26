@@ -3,15 +3,46 @@
 	background-color: #1B2631;
 	color: white;
 }
-#skills{
+#skills, #language{
 	margin-top: 50px;
 }
-#education p{
+#education p, #certification p{
 	line-height: 2.5rem;
 	margin-top: 1.5rem;
 	margin-bottom: 1.5rem;
 }
-#education hr{
+#education hr, #certification hr{
 	margin-top: 0px;
 	margin-bottom: 0px;
+}
+@media(max-width: 768px){
+	#skills-right, #skills-left{
+		text-align: left;
+		font-size: 1.5rem;
+		line-height: 2.5rem;
+		margin-bottom: 0px;
+	}
+	#skills-right{
+		margin-top: 0px;
+	}
+	#skills-left{
+		margin-top: 40px;
+	}
+}
+@media(min-width: 768px){
+	#skills-left{
+		float: left;
+		text-align: left;
+		margin-top: 40px;
+	}
+	#skills-right{
+		float: right;
+		text-align: left;
+		margin-top: 40px;
+	}
+}
+
+#language{
+	text-align: left;
+	margin-top: 40px;
 }
