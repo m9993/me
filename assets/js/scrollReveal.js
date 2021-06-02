@@ -39,7 +39,8 @@ window.scrollReveal = (function (window) {
       after:  '0s',
       enter:  'bottom',
       move:   '24px',
-      over:   '0.66s',
+      // over:   '0.66s',
+      over:   '0.3s',
       easing: 'ease-in-out',
 
   //  if 0, the element is considered in the viewport as soon as it enters

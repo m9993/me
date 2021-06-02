@@ -64,8 +64,8 @@ p {
    COLOR CODES
    ========================================================================== */
 
-.color-red {
-    color:#ff0000;
+.sub-menu-color {
+    color:#31708f;
 }
 
 .color-green {
@@ -92,11 +92,12 @@ p {
 
 #header-section {
 	background: url(../img/header.jpg) no-repeat center top;
-	margin-top: -20px;
-	padding-top:20px;
+	/* margin-top: -20px;
+	padding-top:20px; */
 	text-align:center;
 	background-position: center center;
-	min-height: 700px;
+	/* min-height: 700px; */
+	min-height: 100vh;
 	width: 100%;	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
